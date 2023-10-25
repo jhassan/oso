@@ -18,10 +18,36 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.container-main {
+  @apply max-w-[1089px] mx-auto px-6 md:px-0;
+}
+
+.liner-background {
+  background: linear-gradient(180deg, #f0e2fa 0%, rgba(239, 214, 255, 0) 100%);
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 24px;
+}
+
+.background-white {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) -118.65%,
+    rgba(255, 255, 255, 0) -43.19%,
+    rgba(255, 255, 255, 0.8) 50%
+  );
+}
+
+.background-green {
+  background: linear-gradient(180deg, rgba(115, 178, 168, 0) 0%, #8cdcd0 100%);
 }
