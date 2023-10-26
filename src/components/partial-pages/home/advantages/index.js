@@ -25,7 +25,7 @@ function AdvantagesSection() {
         </div>
       </div>
 
-      {/* <div className="w-full pt-16 justify-center items-center gap-2 flex flex-col">
+      <div className="w-full py-16 justify-center items-center gap-2 flex flex-col">
         <div className="md:text-center text-black text-[40px] md:text-5xl font-bold md:leading-[80px]">
           Advantages of OSO Search{" "}
         </div>
@@ -36,22 +36,72 @@ function AdvantagesSection() {
         </p>
       </div>
 
-      <div class="real-time w-full pb-[28px]">
-        <img class="md:hidden" src="assets/images/realtime.png" alt="" />
-        <img class="hidden md:block" src="assets/images/update.png" alt="" />
+      <div className="flex flex-col gap-14">
+        <div className="bg-[url('/assets/section1.webp')] md:bg-contain bg-no-repeat h-full md:h-[570px] w-full relative rounded-2xl">
+          <div className="flex-col justify-start items-start gap-6 p-8 md:p-16 inline-flex">
+            <div className=" text-black text-[32px] md:text-5xl font-bold">
+              Up to Date
+            </div>
+            <div className="max-w-[422px]">
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                Unlike AI chatbots with fixed knowledge limits,{" "}
+              </span>
+              <span className="text-gray-800 text-2xl font-medium leading-loose">
+                OSO Search guarantees you access to the latest
+              </span>
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                {" "}
+                and most pertinent information.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[url('/assets/section2.webp')] md:bg-contain bg-no-repeat h-full md:h-[570px] w-full relative rounded-2xl">
+          <div className="flex-col justify-start items-start gap-6 p-8 md:p-16 inline-flex">
+            <div className=" text-black text-[32px] md:text-5xl font-bold">
+              Uncensored
+            </div>
+            <div className="max-w-[422px]">
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                OSO believes in{" "}
+              </span>
+              <span className="text-gray-800 text-2xl font-medium leading-loose">
+                free speech{" "}
+              </span>
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                and{" "}
+              </span>
+              <span className="text-gray-800 text-2xl font-medium leading-loose">
+                unrestricted access to knowledge
+              </span>
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                , ensuring your receive in-depth and unfiltered answers.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[url('/assets/section3.webp')] md:bg-contain bg-no-repeat h-full md:h-[570px] w-full relative rounded-2xl">
+          <div className="flex-col justify-start items-start gap-6 p-8 md:p-16 inline-flex">
+            <div className=" text-black text-[32px] md:text-5xl font-bold">
+              Secure
+            </div>
+            <div className="max-w-[422px]">
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                With OSO, there’s{" "}
+              </span>
+              <span className="text-gray-800 text-2xl font-medium leading-loose">
+                no need to venture into potentially harmful sites
+              </span>
+              <span className="text-gray-800 text-2xl font-light leading-loose">
+                {" "}
+                since the searching is done for you.
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="unsecured-time w-full pb-[28px]">
-        <img class="md:hidden" src="assets/images/uncensored.png" alt="" />
-        <img
-          class="hidden md:block"
-          src="assets/images/uncensored1.png"
-          alt=""
-        />
-      </div> */}
-
-      {/* <div className="w-[1089px] h-[571px] bg-gradient-to-b from-teal-100 via-slate-400 to-zinc-300 rounded-2xl" />
-
-      <div className="w-[1089px] h-[571px] background-green rounded-2xl" /> */}
     </div>
   );
 }

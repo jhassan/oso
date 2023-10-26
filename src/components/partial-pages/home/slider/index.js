@@ -27,8 +27,14 @@ function HomeSlider() {
           Many people already feel the magic
         </div>
       </div>
-      <div className="pb-8 pt-10 overflow-visible container-main 3xlg:min-w-[1364px] relative">
-        <HomeCarousel data={data} />
+      <div className="relative">
+        <div className="pb-8 pt-10 overflow-visible container-main 3xlg:min-w-[1364px] relative">
+          <HomeCarousel data={data} />
+        </div>
+        {/* <img
+          src="/assets/bg-white-gradiant.webp"
+          className="absolute top-10 right-0 z-10"
+        /> */}
       </div>
     </>
   );

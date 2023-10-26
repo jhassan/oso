@@ -37,7 +37,7 @@ function HomeFaqs() {
   ];
   return (
     <>
-      <div className="container-main pt-8 md:pt-12 pb-40">
+      <div className="container-main pt-8 md:pt-40 pb-40">
         <div className="md:text-center text-black text-[40px] md:text-5xl font-bold md:font-extrabold leading-[56px] md:leading-[64px]">
           Frequently Asked Questions
         </div>

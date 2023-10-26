@@ -20,7 +20,7 @@ function NextArrow({ currentSlide, slideCount, cardsToShow, ...props }) {
     <button
       {...props}
       className={twMerge(
-        "moz-css absolute !inline-flex items-center justify-center right-0 bg-gray-100 rounded-full border border-gray-200 top-24 w-12 h-12 translate-x-[70px]",
+        "moz-css absolute !inline-flex items-center justify-center right-0 z-20 bg-gray-100 rounded-full border border-gray-200 top-24 w-12 h-12 translate-x-[70px]",
         currentSlide !== slideCount - cardsToShow && "text-gray-400",
         currentSlide === slideCount - cardsToShow && "text-gray-400 "
       )}
@@ -53,7 +53,7 @@ function PrevArrow({ currentSlide, slideCount, ...props }) {
         <button
           {...props}
           className={twMerge(
-            "moz-css absolute !inline-flex items-center justify-center left-0 bg-gray-100 rounded-full border border-gray-200 top-24 z-10 w-12 h-12 translate-x-[0px]",
+            "moz-css absolute !inline-flex items-center justify-center left-0 z-20 bg-gray-100 rounded-full border border-gray-200 top-24 z-10 w-12 h-12 translate-x-[0px]",
             currentSlide !== 0 && "text-gray-400",
             currentSlide === 0 && "text-gray-400 "
           )}

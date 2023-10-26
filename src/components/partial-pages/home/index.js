@@ -5,7 +5,7 @@ import HomeSlider from "./slider";
 
 export default function HomePage() {
   return (
-    <div className="liner-background">
+    <div className="bg-[url('/assets/purple-gradiant.webp')] bg-no-repeat bg-contain">
       <HomePageHero />
       <HomeSlider />
       <AdvantagesSection />
