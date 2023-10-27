@@ -14,8 +14,8 @@ function Header() {
   return (
     <>
       {/* Header */}
-      <header className="z-50 py-4 bg-white">
-        <nav
+      <div className="z-50 py-4 bg-white">
+        <div
           className="flex items-center justify-between container-main"
           aria-label="Global"
         >
@@ -40,7 +40,7 @@ function Header() {
               Join Waitlist
             </div>
           </button>
-        </nav>
+        </div>
         <Dialog
           as="div"
           className="lg:hidden"
@@ -92,7 +92,7 @@ function Header() {
             </div>
           </Dialog.Panel>
         </Dialog>
-      </header>
+      </div>
     </>
   );
 }

@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import PropTypes from "prop-types";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 import { twMerge } from "tailwind-merge";
-// import { BlogCarouselCard } from "../../cards";
 
 const mainSettings = {
   dots: false,
@@ -20,7 +19,7 @@ function NextArrow({ currentSlide, slideCount, cardsToShow, ...props }) {
     <button
       {...props}
       className={twMerge(
-        "moz-css absolute !inline-flex items-center justify-center right-0 z-20 bg-gray-100 rounded-full border border-gray-200 top-24 w-12 h-12 translate-x-[70px]",
+        "moz-css absolute !inline-flex items-center justify-center md:right-0 z-20 bg-gray-100 rounded-full border border-gray-200 -top-16 md:top-24 w-12 h-12 translate-x-[70px]",
         currentSlide !== slideCount - cardsToShow && "text-gray-400",
         currentSlide === slideCount - cardsToShow && "text-gray-400 "
       )}
@@ -33,16 +32,16 @@ function NextArrow({ currentSlide, slideCount, cardsToShow, ...props }) {
   );
 }
 
-NextArrow.propTypes = {
-  currentSlide: PropTypes.number,
-  slideCount: PropTypes.number,
-  cardsToShow: PropTypes.number,
-};
+// NextArrow.propTypes = {
+//   currentSlide: PropTypes.number,
+//   slideCount: PropTypes.number,
+//   cardsToShow: PropTypes.number,
+// };
 
-NextArrow.defaultProps = {
-  currentSlide: 0,
-  slideCount: 0,
-};
+// NextArrow.defaultProps = {
+//   currentSlide: 0,
+//   slideCount: 0,
+// };
 
 function PrevArrow({ currentSlide, slideCount, ...props }) {
   return (
@@ -53,7 +52,7 @@ function PrevArrow({ currentSlide, slideCount, ...props }) {
         <button
           {...props}
           className={twMerge(
-            "moz-css absolute !inline-flex items-center justify-center left-0 z-20 bg-gray-100 rounded-full border border-gray-200 top-24 z-10 w-12 h-12 translate-x-[0px]",
+            "moz-css absolute !inline-flex items-center justify-center left-0 z-20 bg-gray-100 rounded-full border border-gray-200 -top-16 md:top-24 w-12 h-12 translate-x-[0px]",
             currentSlide !== 0 && "text-gray-400",
             currentSlide === 0 && "text-gray-400 "
           )}

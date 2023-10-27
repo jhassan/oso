@@ -12,27 +12,27 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div class="footer-wraper w-full px-6 pt-[200px] bg-black md:px-24">
-        <div class="footer w-full container-main">
-          <div class="ambassador w-full p-6 bg-gray-100 mb-24 mt-[-298px] rounded-lg lg:px-24 lg:py-16">
-            <div class="grid divide-y divide-neutral-200 max-w-[896px] mx-auto">
-              <details class="group">
-                <summary class="flex flex-col items-center lg:flex-row md:justify-between gap-4">
+      <div className="footer-wraper w-full px-6 pt-[200px] bg-black md:px-24">
+        <div className="footer w-full container-main">
+          <div className="ambassador w-full p-6 bg-gray-100 mb-24 mt-[-298px] rounded-lg lg:px-24 lg:py-16">
+            <div className="grid divide-y divide-neutral-200 max-w-[896px] mx-auto">
+              <div className="group">
+                <div className="flex flex-col items-center lg:flex-row md:justify-between gap-4">
                   <div className=" text-black text-[40px] font-bold leading-[56px]">
                     Become OSO ambessedor
                   </div>
-                  <button class="w-full px-8 py-[11px] bg-purple-600 rounded-lg justify-center items-center gap-2 flex cursor-pointer md:w-fit">
-                    <div class="Label text-white text-base font-normal leading-relaxed">
+                  <button className="w-full px-8 py-[11px] bg-purple-600 rounded-lg justify-center items-center gap-2 flex cursor-pointer md:w-fit">
+                    <div className="Label text-white text-base font-normal leading-relaxed">
                       Apply now
                     </div>
                     <ArrowForwardIcon />
                   </button>
-                </summary>
-              </details>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="footer-wraper w-full max-w-[1088px] mx-auto flex flex-col md:flex-row md:justify-between gap-5">
-            <div class="footer-left max-w-[418px]">
+          <div className="footer-wraper w-full max-w-[1088px] mx-auto flex flex-col md:flex-row md:justify-between gap-5">
+            <div className="footer-left max-w-[418px]">
               <div className="flex justify-end gap-8 items-end">
                 <img
                   className=""
@@ -52,9 +52,9 @@ function Footer() {
                 </div>
               </button>
             </div>
-            <div class="footer-right max-w-[433px]">
-              <div class="text mb-4">
-                <p class="text-gray-400 text-base font-light leading-normal">
+            <div className="footer-right max-w-[433px]">
+              <div className="text mb-4">
+                <p className="text-gray-400 text-base font-light leading-normal">
                   Stay updated on the latest news and features.
                 </p>
               </div>
@@ -63,16 +63,16 @@ function Footer() {
                 type="text"
                 placeholder="Enter your email"
               />
-              {/* <div class="input-button w-full block p-6 py-4 mb-2 rounded-lg border border-gray-600">
-                <div class="flex justify-between items-center">
+              {/* <div className="input-button w-full block p-6 py-4 mb-2 rounded-lg border border-gray-600">
+                <div className="flex justify-between items-center">
                   <input
                     type="text"
                     name="email"
                     placeholder="Enter your name"
-                    class="block w-full py-4 bg-black rounded-lg text-gray-500 text-base font-normal leading-loose border-0 focus:border-0"
+                    className="block w-full py-4 bg-black rounded-lg text-gray-500 text-base font-normal leading-loose border-0 focus:border-0"
                   />
                   
-                  <div class="Icons w-6 h-6">
+                  <div className="Icons w-6 h-6">
                     <svg
                     width="24"
                     height="24"
@@ -88,34 +88,34 @@ function Footer() {
                   </div>
                 </div>
               </div> */}
-              <div class="socialmedia justify-around items-center flex pt-6">
-                <div class="p-2">
-                  <div class="IconLinkedin w-8 h-8">
+              <div className="socialmedia justify-around items-center flex pt-6">
+                <div className="p-2">
+                  <div className="IconLinkedin w-8 h-8">
                     <SvgLinkedin />
                   </div>
                 </div>
-                <div class="p-2">
-                  <div class="IconFacebook w-8 h-8">
+                <div className="p-2">
+                  <div className="IconFacebook w-8 h-8">
                     <FacebookIcon />
                   </div>
                 </div>
-                <div class="p-2">
-                  <div class="TwitterX1 w-6 h-6">
+                <div className="p-2">
+                  <div className="TwitterX1 w-6 h-6">
                     <TwitterIcon />
                   </div>
                 </div>
-                <div class="p-2">
-                  <div class="IconInstagram w-8 h-8">
+                <div className="p-2">
+                  <div className="IconInstagram w-8 h-8">
                     <InstagramIcon />
                   </div>
                 </div>
-                <div class="p-2">
-                  <div class="IconYoutube w-8 h-8">
+                <div className="p-2">
+                  <div className="IconYoutube w-8 h-8">
                     <YoutubeIcon />
                   </div>
                 </div>
-                <div class="p-2">
-                  <div class="IconTiktok w-8 h-8">
+                <div className="p-2">
+                  <div className="IconTiktok w-8 h-8">
                     <TiktokIcon />
                   </div>
                 </div>
@@ -123,8 +123,8 @@ function Footer() {
             </div>
           </div>
 
-          <div class="w-full bg-black py-6 justify-center items-center flex">
-            <div class="w-full bg-gray-400 bg-opacity-20 border border-gray-400 border-opacity-20"></div>
+          <div className="w-full bg-black py-6 justify-center items-center flex">
+            <div className="w-full bg-gray-400 bg-opacity-20 border border-gray-400 border-opacity-20"></div>
           </div>
           <div className="justify-between md:items-center w-full flex flex-col md:flex-row gap-5 py-8">
             <p className="text-gray-500 text-sm font-normal leading-snug order-2 md:order-1">
